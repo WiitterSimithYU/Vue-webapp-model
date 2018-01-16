@@ -1,0 +1,44 @@
+html,body {
+    font: 14px/1.5 "microsoft yahei", 微软雅黑;
+}
+html,body,p,pre,blockquote,
+h1,h2,h3,h4,h5,h6,
+dl,dt,dd,ul,ol,li,
+form,fieldset,legend,select,
+input,textarea,button,
+table,caption,tr,th,td
+a,img,div {
+    margin:0;
+    padding:0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ol,ul {
+    list-style:none;
+}
+a {
+    border: 0;
+    text-decoration:none;
+}
+a img {
+    border: 0;
+}
+input,button,textarea,select,option {
+    font-family:inherit;
+    font-size:100%;
+    outline: 0;
+}
+textarea {
+    overflow: auto;
+    resize: none;
+}
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+
+/* Vue 相关 */
+[v-cloak] {
+    display: none;
+}
